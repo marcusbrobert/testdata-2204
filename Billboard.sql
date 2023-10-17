@@ -1,4 +1,4 @@
--- Deletes old data from Billboard table
+-- Delete old data from Billboard table
 DELETE FROM Billboard
 WHERE storeId = '96121ae8-1808-4a2b-9b45-3a45d148675e';
 
