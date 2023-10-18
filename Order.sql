@@ -1,3 +1,8 @@
+-- Delete old data from Order table
+DELETE FROM `Order`
+WHERE storeId = '96121ae8-1808-4a2b-9b45-3a45d148675e';
+
+-- Insert testdata into Order table
 INSERT INTO `Order` (storeId, status, products, address, createdAt, email)
 VALUES
 ('96121ae8-1808-4a2b-9b45-3a45d148675e', 'paid', '[{"quantity":1,"productId":36}, {"quantity":1,"productId":37}]', 'Kungsgatan 123, 111 22 Stockholm', CURRENT_TIMESTAMP(), 'anna.andersson@example.com'),
